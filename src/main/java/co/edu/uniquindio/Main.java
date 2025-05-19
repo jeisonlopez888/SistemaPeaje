@@ -76,8 +76,8 @@ public class Main {
                 System.out.println("Nombre incorrecto. Intente nuevamente.");
             }
         }
-        System.out.println("\n--- Recaudador Encontrado ---");
-        encontrado.imprimirDatos();
+        System.out.println("--- Recaudador Encontrado ---");
+
 
 
         // Obtener conductores con camiones de más de 10 toneladas

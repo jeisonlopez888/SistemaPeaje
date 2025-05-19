@@ -18,10 +18,6 @@ public class EstacionPeaje {
         this.recaudadores = new ArrayList<>();
     }
 
-    public List<Recaudador> getRecaudadores() {
-        return recaudadores;
-    }
-
 
     public void calcularPeaje(Vehiculo v) {
         double valor = v.calcularPeaje();

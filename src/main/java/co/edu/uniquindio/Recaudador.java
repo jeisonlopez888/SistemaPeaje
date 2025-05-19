@@ -42,16 +42,7 @@ public class Recaudador {
         return sueldoMensual;
     }
 
-    @Override
-    public String toString() {
-        return "Recaudador{" +
-                "nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
-                ", documento='" + documento + '\'' +
-                ", fechaNacimiento=" + fechaNacimiento +
-                ", sueldoMensual=" + sueldoMensual +
-                '}';
-    }
+
 
     public void imprimirDatos() {
         System.out.println("Nombre: " + nombre);
